@@ -1,0 +1,52 @@
+/* font generico della pagina */
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* reset generale colore link e icone menu */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-menu-nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-logo{
+    width: 5%;
+    height: 5%;
+}
+
+/* font titolo principale */
+.blog-header > h1{
+    font-family: "Anton SC", sans-serif;
+}
+
+/* decorazione titoli */
+h1, h2{
+    color: rgba(39, 94, 102, 0.7);
+    text-align: center;
+    font-size: 50px;
+}
+
+h3, h3 > a, h4 > a{
+    color: rgba(22, 31, 80, 0.7);
+    text-decoration: none;
+}
+
+/* background image per la sezione "articoli in evidenza" */
+.blog-articoli-evidenza{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url('https://picsum.photos/2000/2500');
+}
+
+/* background color per gli articoli della sezione "Leggi anche" + modifica colore link */
+.blog-articoli-total{
+    background-color: rgb(200, 198, 198);
+    padding-top: 2%;
+}
+
+.blog-articoli-total a:hover{
+    background-color: rgb(178, 116, 178);
+}
